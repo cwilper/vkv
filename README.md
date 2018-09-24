@@ -1,12 +1,12 @@
-# vkv - manage secrets with less typing
+# What is vkv?
 
-`vkv` is a tab-completable wrapper around `vault` that supports:
+`vkv` is a wrapper around `vault` that uses tab completion and simplified arguments to help you:
 
-* Getting secrets as json
-* Getting values as plaintext
-* Copying values to the clipboard
-* Adding and replacing values within secrets
-* Deleting and purging secrets and values within them
+* Dump secrets as json
+* Get values as plaintext
+* Copy values to the clipboard
+* Add and replace values in secrets
+* Delete and purge secrets and values
 
 ...with any [HashiCorp Vault](https://www.vaultproject.io/)
 [KV Engine](https://www.vaultproject.io/docs/secrets/kv/index.html) (versions 1 and 2).
